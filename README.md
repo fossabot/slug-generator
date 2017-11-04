@@ -8,6 +8,7 @@ Slug Generator Library
 [![Downloads](https://img.shields.io/packagist/dt/ausi/slug-generator.svg?style=flat-square)](https://packagist.org/packages/ausi/slug-generator)
 [![Patreon](https://img.shields.io/badge/Patreon-%24141%2Fmonth-lightgrey.svg?style=flat-square&colorA=F96854&colorB=555555)](https://www.patreon.com/ausi)
 [![MIT License](https://img.shields.io/github/license/ausi/slug-generator.svg?style=flat-square)](https://github.com/ausi/slug-generator/blob/master/LICENSE)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fapostolisly%2Fslug-generator.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fapostolisly%2Fslug-generator?ref=badge_shield)
 
 This library provides methods to generate slugs
 for URLs, filenames or any other target that has a limited character set.
@@ -126,3 +127,7 @@ $generator->generate('Damn 💩!!', ['preTransforms' => ['💩 > Ice-Cream']]); 
 [range syntax]: http://www.regular-expressions.info/charclass.html
 [Rules]: http://userguide.icu-project.org/transforms/general
 [rule sets]: http://userguide.icu-project.org/transforms/general/rules
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fapostolisly%2Fslug-generator.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fapostolisly%2Fslug-generator?ref=badge_large)
